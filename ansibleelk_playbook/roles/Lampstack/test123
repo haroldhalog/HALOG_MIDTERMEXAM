@@ -1,0 +1,5 @@
+  - name: Install MariaDB Package in Ubuntu
+    apt:
+       name: mariadb
+       state: latest
+    when: ansible_distribution == "Ubuntu"

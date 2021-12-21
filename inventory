@@ -1,0 +1,16 @@
+[all] 
+192.168.0.105
+
+
+[all:vars]
+ansible_ssh_user=vagrant
+
+[elastic]
+192.168.0.105
+
+[kibana]
+192.168.0.105
+
+[logstash]
+192.168.0.105
+
